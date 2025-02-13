@@ -45,7 +45,7 @@ const days = [
 
 const shortNote = {
     name: 'Short Note',
-    song: '/music/note-day.mp3',
+    song: '/music/note.mp3',
     text: '📝 Hey love! Just a little reminder that you are the best thing that has ever happened to me. No matter what comes our way, I am here for you — always. Love you endlessly! I am super grateful to have you in my life and couldnnt thank god enough for it . But listen Ik I made you cry, I made you feel bad about yourself, I made you feel alone which should have been worst nightmares for me but I did them all. Ik I cant go back and fix them all but I can definitely try to compensate in future by making you feel extra loved, most cared,and the best. Lets work on us bachha , lets work . Now is the time , later just regret . I am all in for all the things , are you? Sorrie for everything yrr, ik you hate this but now I will never ask for ILY but rather do things to make you say it yourself again and again. Actions more than words . This was my first step, hopefully you liked it. Btw check karna shayad niche apka zepto aagya hoga? Enjoy the chocolate and lets enjoy this relationship too! I love you so so much💖'
 };
 
