@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainPage{
+    background-color: pink;
+    width:100vw;
+    height: 100vh;
+}
+
+.welcome{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+    font-weight:700;
+    padding-top: 1rem;
+    color:rgb(135, 8, 103);
+}
+
+.Madamji{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+    text-align: center;
+    font-weight:700;
+    color:rgb(135, 8, 103);
+}
+
+.content{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    color:rgb(135, 8, 103);
+}
+
+.button-holder{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.button{
+    width:30vw;
+    height:5vh;
+    margin-bottom:0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    border-color: rgb(135, 8, 103);
+    background-color: pink;
+}
+
+.Note{
+    width:30vw;
+    height:5vh;
+    margin-bottom:0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 1rem;
+    color:white;
+    border-color:pink;
+    background-color: rgb(135, 8, 103);
+    position:absolute;
+    bottom:10%;
+    left:35%;
+}
+
+.Note:hover{
+    background-color: pink;
+    color: rgb(135, 8, 103);
+    scale:1.1;
+}
+
+button:hover{
+    background-color: rgb(135, 8, 103);
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 400px;
+    width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.songs{
+    display:flex;
+    justify-content: center;
+    width:80%;
+}
+
+.audio{
+    display: flex;
+    justify-content: space-evenly;
+    width:95%;
+    height:2rem;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.para{
+    margin-top:1rem;
+}
